@@ -1,0 +1,9 @@
+name: PyGDrive
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python==3.11.5
+  - pip:
+    - google-api-python-client
+    - gspread
